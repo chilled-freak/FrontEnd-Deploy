@@ -1,0 +1,12 @@
+.Error{
+  color: red;
+  margin-bottom: 15px;
+}
+.margin-none{
+    margin-bottom: 0px !important;
+}
+.login-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

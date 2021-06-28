@@ -9,9 +9,7 @@ import { ApiService } from './services/api.service';
 export class AppComponent {
   title = 'Demo-Api';
 
-  constructor(public api : ApiService){
-
-  }
+  constructor(public api : ApiService){}
 
   getData(){
     this.api.getData().subscribe(data => {
